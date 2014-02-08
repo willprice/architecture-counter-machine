@@ -2,4 +2,4 @@
 Implemented in ModuleSim, a simulator for the Bristol-designed build-a-comp modules.
 
 ## Setup
-![setup image](setup.png)
+![Setup image](setup.png)
