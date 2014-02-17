@@ -8,12 +8,13 @@ Finally the last 4 least significant bits are used for address where the
 instruction requires an address.
 ### Instruction Table:
 
-Instruction      | OPCODE                  | Description |
-INC `r_i`        | `000r_i-0000`           | Increment register `r_i` |
-DEC `r_i`        | `001r_i-0000`           | Decrement register `r_i` |
-JNZ `[ADR]`      | `0100-a_3a_2a_1a_0`     | If `r_0 == 0` then `PC = a_3a_2a_1a_0` |
-STR `r_i, [ADR]` | `100r_i-a_3a_2a_1a_0`   | `MEM[ADR] = r_i` |
-LSR `r_i, [ADR]` | `101r_i-a_3a_2a_1a_0`   | `r_i = MEM[ADR]` |
+| Instruction      | OPCODE                  | Description |
+|------------------|-------------------------|-------------|
+| INC `r_i`        | `000r_i-0000`           | Increment register `r_i` |
+| DEC `r_i`        | `001r_i-0000`           | Decrement register `r_i` |
+| JNZ `[ADR]`      | `0100-a_3a_2a_1a_0`     | If `r_0 == 0` then `PC = a_3a_2a_1a_0` |
+| STR `r_i, [ADR]` | `100r_i-a_3a_2a_1a_0`   | `MEM[ADR] = r_i` |
+| LSR `r_i, [ADR]` | `101r_i-a_3a_2a_1a_0`   | `r_i = MEM[ADR]` |
 
 ## Setup
 ### Decoder
